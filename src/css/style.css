@@ -26,7 +26,6 @@
 
 #card-title {
     font-family: "Poppins", sans-serif;
-    font-weight: bold;
     color: rgb(117, 229, 25);
 }
 
@@ -47,6 +46,7 @@ header {
     background: linear-gradient(to right, rgb(0, 128, 43), rgb(52, 133, 102));
     text-align: center;
     padding: 20px;
+    border-radius: 20px;
 }
 .head {
     font-family: "Poppins", sans-serif;
@@ -65,21 +65,15 @@ header {
     font-weight: bold;
 }
 
-h2 {
-    font-family: "Poppins", sans-serif;
-    color: #006400;
-    font-weight: bold;
-}
-
 p {
     color: rgb(42, 203, 79);
     font-family: "Poppins", sans-serif;
     font-size: 14px;
 }
 
-
-.email {
-    color: yellow;
+.email,
+.icons {
+    color: rgba(226, 226, 40, 0.904);
 }
 
 /* Sections */
@@ -89,14 +83,15 @@ p {
     text-align: center;
     margin: 20px;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
     background: linear-gradient(to right, rgb(0, 128, 43), rgb(52, 133, 102));
 }
 /* Footer */
 footer {
     text-align: center;
     padding: 10px;
+    border-radius: 20px;
     background-color: #006400;
     background: linear-gradient(to right, rgb(0, 128, 43), rgb(52, 133, 102));
 }
+
